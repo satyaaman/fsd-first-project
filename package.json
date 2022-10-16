@@ -1,0 +1,23 @@
+{
+  "name": "youtube_project",
+  "version": "1.0.0",
+  "description": "aman is best developer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js -e js,hbs"
+  },
+  "author": "Aman dubey",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.25.2",
+    "sequelize-cli": "^6.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
